@@ -18,10 +18,66 @@ html {
 }
 
 body { 
-	
+	padding: 0;
+	margin: 0;
 }
 
 .img-flex {
 	width: 100%;
 }
 
+header	{ 
+	background-color: #1B1C1C;
+	padding: 0;
+	margin: 0;
+}
+
+.cityfolklogo { 
+	width: 4em;
+	margin: 1em;
+}
+
+ul { 
+	list-style-type: none;
+}
+
+li { 
+	list-style-type: none;
+}
+
+.primary { 
+	font-family: 'Montserrat',sans-serif;
+	font-size: 14px;
+	font-weight: bold; 
+	text-transform: uppercase;
+	float: center;
+}
+
+.primary li { 
+	display: inline-block;
+	padding-right: 6em;
+}
+
+.lineup-link, 
+.details-link, 
+.ticket-link { 
+	text-decoration: none;
+	color: #ACACAC;
+}
+
+.lineup-link:hover , 
+.details-link:hover , 
+.ticket-link:hover { 
+	color: #FDD501;
+}
+
+.twitter-link, 
+.facebook-link, 
+.insta-link { 
+	width: 1.5em;
+
+	}
+
+.socialmedia { 
+		display: inline-block;
+}
