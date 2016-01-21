@@ -22,6 +22,15 @@ body {
 	margin: 0;
 }
 
+a { 
+	text-decoration: none;
+	color: #ACACAC;
+}
+
+a:hover  { 
+	color: #FDD501;
+}
+
 .img-flex {
 	width: 100%;
 }
@@ -34,7 +43,9 @@ header	{
 
 .cityfolklogo { 
 	width: 4em;
-	margin: 1em;
+	padding-top: 1em;
+	padding-left: 1em;
+	padding-bottom: 1em;
 }
 
 ul { 
@@ -50,12 +61,13 @@ li {
 	font-size: 14px;
 	font-weight: bold; 
 	text-transform: uppercase;
-	float: center;
+	text-align: center;
+	padding-top: 3em;
 }
 
 .primary li { 
-	display: inline-block;
-	padding-right: 6em;
+	display: block;
+	text-align: center;
 }
 
 .lineup-link, 
@@ -76,8 +88,427 @@ li {
 .insta-link { 
 	width: 1.5em;
 
-	}
+}
+
+.socialmedia li{ 
+	display: inline-block;
+}
 
 .socialmedia { 
+	padding-right: 3em;
+	margin: 0;
+	text-align: center;
+}
+
+.top { 
+	margin-top: -2em;
+}
+
+.banner { 
+	background-color: #1B1C1C;
+	width: auto; 
+	height: 18em;
+}
+
+.icon { 
+	width: 12em;
+	height: auto;
+	display: block;
+    margin-left: auto;
+    margin-right: auto;
+	padding-top: 3em;
+}
+
+.info { 
+	background-color: #00B2B0;
+	width: auto;
+	height: 12em;
+}
+
+.bannerinfo { 
+	display: block;
+    margin-left: auto;
+    margin-right: auto;
+	width: 15em;
+	padding-top: 3em;
+}
+
+.ticketbutton { 
+	width: 6em;
+	display: block;
+    margin-left: auto;
+    margin-right: auto;
+	padding-top: 3em;
+}
+
+.ticketbutton:hover { 
+	width: 5.5em;
+}
+
+.socialtwo { 
+	height: 10em;
+	background-color: #EE3158;
+	text-align: center;
+	padding-top: 5.5em;
+}
+
+.socialmediatwo { 
+	display: inline;
+	padding: 0;
+	padding-top: 4em;
+}
+
+.socialmediatwo li { 
+	display: inline;
+	padding-right: 2em;
+}
+
+.announcing1 { 
+	background-color: #1B1C1C;
+	height: 30em;	
+}
+
+.announcingmain { 
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+	width: 15em;
+	opacity: .65;
+}
+
+.secondary { 
+	font-family: 'Montserrat',sans-serif;
+	font-size: 14px;
+	font-weight: bold; 
+	text-transform: uppercase;
+	text-align: center;
+	padding-top: 3em;
+}
+
+.secondary li { 
+	display: block;
+	text-align: center;
+	text-decoration: none;
+	padding: 0 4em 0 4em;
+}
+
+.secbanner { 
+	display: block;
+    margin-left: auto;
+    margin-right: auto;
+	width: 15em;
+	padding-top: 3em;
+}
+
+.helped{ 
+	background-color: #1B1C1C;
+	height: 30em;
+	padding: 0;
+	margin: 0;
+}
+
+.sponsored { 
+	font-family: 'Montserrat',sans-serif;
+	font-size: 14px;
+	font-weight: bold; 
+	text-transform: uppercase;
+	text-align: center;
+	padding-top: 1em;
+	margin: 0;
+	color: white;
+}
+
+.spons { 
+	width: 13em;
+	height: auto;
+	padding: 2em;
+}
+
+.art { 
+	text-align: center;
+	padding-top: 3em;
+}
+
+@media only screen and (min-width: 20em) { 
+	
+	.primary li { 
 		display: inline-block;
+		padding-right: 4em;
+	}
+	
+	.primary { 
+		font-family: 'Montserrat',sans-serif;
+		font-size: 14px;
+		font-weight: bold; 
+		text-transform: uppercase;
+		text-align: center;
+		padding-top: 0em;
+	}
+}
+
+@media only screen and (min-width: 30em) { 
+	.socialmedia { 
+		padding-right: 1em;
+		margin: 0;
+		text-align: right;
+	}	
+	
+	.icon { 
+		width: 20em;
+	}
+	
+	.banner { 
+		background-color: #1B1C1C;
+		width: auto; 
+		height: 27em;
+	}
+	
+	.sponsored { 
+		padding-top: 3em;
+	}
+	
+	.bannerinfo { 
+		display: block;
+		margin-left: auto;
+		margin-right: auto;
+		width: 30em;
+		padding-top: 3em;
+	}
+	
+	.announcingmain { 
+		display: block;
+		margin-left: auto;
+		margin-right: auto;
+		width: 35em;
+		opacity: .65;
+	}
+	
+	.secondary li { 
+		display: inline;
+		text-align: center;
+		text-decoration: none;
+		padding: 0 4em 0 4em;
+	}
+	.announcing1 { 
+		background-color: #1B1C1C;
+		height: 40em;	
+	}
+}
+
+@media only screen and (min-width: 40em) { 
+	.bannerinfo { 
+		display: block;
+		margin-left: auto;
+		margin-right: auto;
+		width: 40em;
+		padding-top: 3em;
+	}
+	
+	.announcingmain { 
+		display: block;
+		margin-left: auto;
+		margin-right: auto;
+		width: 40em;
+		opacity: .65;
+	}
+}
+
+.socialthree { 
+	height: 3em;
+	background-color: #00B2B0;
+	text-align: center;
+}
+
+span { 
+	font-family: 'Montserrat',sans-serif;
+	font-size: 14px;
+	font-weight: bold; 
+	text-transform: uppercase;
+	text-align: center;
+	padding-top: 0em;
+	color: white;
+}
+
+.image {
+  position: relative;
+}
+
+.image span {
+  display: none;
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  padding-bottom: 100px;
+}
+
+.image:hover span {
+  display: block;
+}
+
+.artists { 
+	height: auto; 
+	width: 12em;
+	padding: .5em;
+}
+
+.center { 
+	text-align: center;
+}
+
+@media only screen and (min-width: 20em) { 
+	.artists { 
+		height: auto; 
+		width: 10em;
+		padding: .5em;
+	}
+}
+
+
+@media only screen and (min-width: 50em) { 
+	.artists { 
+		height: auto; 
+		width: 14em;
+		padding: .5em;
+	}
+}
+
+.announc2 { 
+	width: 16em;	
+}
+
+.icon2 { 
+	width: 5em;
+	float: right;
+}
+
+.banner3 { 
+	width: 15em;
+	float: right;
+
+}
+
+.billboard2 { 
+		background-color: #1B1C1C;
+		padding: 0;
+		margin: 0;
+	}
+
+@media only screen and (min-width: 30em) { 
+	.announc2 { 
+		width: 30em;	
+	}
+}
+
+@media only screen and (min-width: 40em) { 
+	.icon2 { 
+		width: 15em;
+		float: right;
+		padding-top: 6em;
+		padding-right: 2em;
+	}
+}
+ 
+.friday { 
+	background-color: #FDD501;
+	padding-bottom: 2em;
+}
+
+.saturday { 
+	background-color: #EE3158;
+	padding-bottom: 2em;
+}
+
+.headlines { 
+	font-family: 'Montserrat',sans-serif;
+	font-size: 20px;
+	font-weight: bold; 
+	text-transform: uppercase;
+	text-align: center;
+	padding-top: 1em;
+	color: white;
+	margin: 0;
+}
+
+.headlines2 { 
+	font-family: 'Montserrat',sans-serif;
+	font-size: 20px;
+	font-weight: bold; 
+	text-transform: uppercase;
+	text-align: center;
+	padding-top: 1em;
+	color: #00B2B0;
+	margin: 0;
+}
+
+.subtexts { 
+	font-family: 'Montserrat',sans-serif;
+	font-size: 14px;
+	font-weight: bold; 
+	text-transform: uppercase;
+	text-align: left;
+	padding-top: 0em;
+	color: black;
+	padding-left: 4em; 
+}
+
+.subtexts1 { 
+	font-family: 'Montserrat',sans-serif;
+	font-size: 18px;
+	font-weight: bold; 
+	text-transform: uppercase;
+	text-align: left;
+	padding-top: 0em;
+	color: black;
+	padding-left: 3em; 
+}
+
+.texts { 
+	font-family: 'Montserrat',sans-serif;
+	font-size: 14px;
+	font-weight: bold; 
+	text-transform: uppercase;
+	text-align: left;
+	padding-top: 0em;
+	color: white;
+	padding-left: 4em; 
+}
+
+.hilighted { 
+	font-family: 'Montserrat',sans-serif;
+	font-size: 14px;
+	font-weight: bold; 
+	text-transform: uppercase;
+	text-align: center;
+	padding-top: 0em;
+	color:  #00B2B0;
+	padding-left: 4em; 
+}
+
+.sunday { 
+	background-color: #00B2B0;
+	padding-bottom: 2em;
+}
+
+.impoinfo { 
+		font-family: 'Montserrat',sans-serif;
+	font-size: 14px;
+	font-weight: bold; 
+	text-align: center;
+	padding-top: 0em;
+	color:  #1B1C1C;
+}
+
+.detailheader { 
+	background-color: #1B1C1C;
+	padding-bottom: 2em;
+	margin: 0;
+}
+
+.faq { 
+	margin-left: 4em;
+	margin-right: 4em;
+}
+
+.map { 
+	max-width: 100%;
 }
